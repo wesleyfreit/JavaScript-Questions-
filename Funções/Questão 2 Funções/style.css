@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(97, 22, 158);
+    width:100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+div.box{
+    background-color: rgb(65, 65, 65);
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px black;
+}
+div.box h1{
+    font-size: 22pt;
+    color:rgb(229, 255, 0);
+    padding: 20px;
+    margin: 15px 0;
+    text-shadow: 2px 2px 2px black;
+}
+div.box button{
+    font-size: 16pt;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: rgb(90, 18, 148);
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 1px black;
+}
+div.box #p2{
+    
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 30px 0 -30px -180px;
+}
+div.box #p1{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 10px 0 -30px -145px;
+}
+div.box #result{
+    color:rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 180px 0 180px;
+    border-radius: 10px;
+    padding: 10px;   
+    text-shadow: 1px 1px 1px black; 
+}
+div.box input{
+    padding: 10px;
+    width: 15%;
+}
+div.box button:hover{
+    background-color: rgb(111, 21, 185);
+    padding: 10px 20px;
+}
