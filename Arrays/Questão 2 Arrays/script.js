@@ -5,17 +5,33 @@ elemento <li>. Deve ser exibido também quem ganha o maior salário e o total de
 
 const btn = document.querySelector("#button");
 
-btn.addEventListener("click", () => {
-    const name = document.querySelector("#name");
-    const salario = document.querySelector("#salario");
 
-    const pessoa = [{
-        nome: nome.text,
-        salario: salario.value
+btn.addEventListener("click", () => {
+
+    const inputN = document.querySelector("#nome");
+    const inputS = document.querySelector("#salario");
+
+
+    let pessoa = [{
+        nome: inputN.value,
+        salario: inputS.value
     }];
 
-    for(let chave in pessoa) {
+    length = pessoa.length;
+    for(let chave in pessoa){
         console.log(chave, pessoa.nome);
+        const li = document.querySelector("#li");
+
+        li.textContent = "Nome: " + chave, pessoa.nome + " Salário: " + chave, pessoa.salario;
     }
+    
 
 });
+
+const pessoa = {
+    nome: 'Richard',
+    idade: 21
+};
+for(let chave in pessoa) { // Está pegando a key-value no objeto pessoa
+console.log(chave, pessoa.nome);
+}

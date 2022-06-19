@@ -6,7 +6,7 @@ método split. */
 const botao = document.querySelector("#button");
 botao.addEventListener("click", () => {
 
-    let name = document.querySelector("#insert");
+    let name = document.querySelector("#insert"); 
     let value = name.value;
 
     let arrayN = value.split(",");
