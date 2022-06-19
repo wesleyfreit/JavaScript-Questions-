@@ -47,3 +47,28 @@ div.box button:hover{
     background-color: rgb(29, 119, 253);
     padding: 10px 20px;
 }
+/*botão pag-inicial*/
+#button{
+    list-style-type: none;
+    padding: 40px;
+
+}
+#button li{
+    display: inline-block;
+}
+#button li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgb(12, 120, 192);
+    border-radius: 30px;
+    box-shadow: 0 5px 5px var(--cor-sombra);
+}
+#button li a:hover{
+    background-color: rgb(15, 28, 148);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px var(--cor-sombra);
+    font-size: 110%;
+}
