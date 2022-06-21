@@ -11,27 +11,23 @@ btn.addEventListener("click", () => {
     const inputN = document.querySelector("#nome");
     const inputS = document.querySelector("#salario");
 
+    let pessoas = [{}];
 
-    let pessoa = [{
+    let pessoa = {
         nome: inputN.value,
         salario: inputS.value
-    }];
+    };
+    
+    pessoas.push(pessoa);
 
-    length = pessoa.length;
-    for(let chave in pessoa){
-        console.log(chave, pessoa.nome);
+    length = pessoas.length;
+    console.log(length);
+    for(let i = 0; i < length; i++){
+        console.log(i);
         const li = document.querySelector("#li");
 
-        li.textContent = "Nome: " + chave, pessoa.nome + " Salário: " + chave, pessoa.salario;
+        li.textContent = "Nome: " + pessoa.nome + "   Salário: " + pessoa.salario;
     }
     
 
 });
-
-const pessoa = {
-    nome: 'Richard',
-    idade: 21
-};
-for(let chave in pessoa) { // Está pegando a key-value no objeto pessoa
-console.log(chave, pessoa.nome);
-}
