@@ -10,19 +10,17 @@ botao.addEventListener("click", () => {
     let value = name.value;
 
     let arrayN = value.split(",");
-    console.log(arrayN);
-    let maior = 0;
-    let menor = 0;
+    let maior = arrayN[0];
+    let menor = arrayN[0];
 
     length = arrayN.length;
 
-
     for(let i = 0; i<length; i++){
 
-        if(arrayN[i] > maior)
+        if(parseInt(arrayN[i]) > maior)
             maior = arrayN[i];
 
-        if(menor > arrayN[i])
+        if(menor > parseInt(arrayN[i]))
             menor = arrayN[i];     
     }
 
