@@ -73,8 +73,8 @@
 }
 /*página*/
 #container4{
-    width:100%;
-    min-height: 100vh;
+    width:50%;
+    min-height: 95vh;
     display: grid;
     place-items: center;
     background-color: var(--cor-primaria);
@@ -88,13 +88,13 @@ body {
 }
 #body-sobre{
     text-align: center; 
+    
 }
 /* pagina sobre */
 #h1p4 {
     margin: 0 auto 10px auto;
     padding: 0;
     color:rgb(241, 227, 25);
-    font-variant: small-caps;
     font-size: 200%;
     font-weight: 800;
     text-shadow: 2px 2px 1px rgb(11, 15, 54);
@@ -102,7 +102,6 @@ body {
 #h2p4{
     padding: 15px;
     color:rgb(54, 201, 25);
-    font-variant: small-caps;
     font-size: 160%;
     font-weight: 800;
     text-shadow: 2px 1px 1px rgb(11, 15, 54);
@@ -110,7 +109,8 @@ body {
 h3{
     color:rgb(250, 37, 37);
     padding: 3px;
-    font-size: 130%;
+    margin-bottom: -3%;
+    font-size: 180%;
     font-weight: 800;
     text-shadow: 2px 1px 1px rgb(77, 30, 30);
 }
@@ -118,68 +118,38 @@ h4
 {
     color:rgb(250, 37, 37);
     padding: 3px;
-    font-size: 100%;
+    font-size: 120%;
+    margin-bottom: 20%;
     font-weight: 800;
     text-shadow: 2px 1px 1px rgb(77, 30, 30);
 }
 #p-sobre{
     margin: 10px 100px 10px 100px;
 }
-/*botão pag-inicial*/
-#button{
-    list-style-type: none;
-    padding: 40px;
-
-}
-#button li{
-    display: inline-block;
-}
-#button li a{
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-    background-color: rgb(12, 120, 192);
-    border-radius: 30px;
-    box-shadow: 0 5px 5px var(--cor-sombra);
-    transition: .3s;
-}
-#button li a:hover{
-    background-color: rgb(15, 28, 148);
-    text-decoration: none;
-    padding: 15px;
-    border-radius: 30px;
-    box-shadow: 0 5px 5px var(--cor-sombra);
-    font-size: 110%;
-    
-}
 /*imagem*/
 #my-photo{
     border-radius: 100px;
 }
 /*botão pag-inicial*/
-#button{
+#home{
+    background-color: rgb(18, 72, 250);
+    margin-top: 30px;
     list-style-type: none;
-    padding: 40px;
-
-}
-#button li{
-    display: inline-block;
-}
-#button li a{
-    color: white;
-    text-decoration: none;
     padding: 12px;
-    background-color: rgb(12, 120, 192);
+    border: 0;
+    transition: .3s;
     border-radius: 30px;
-    box-shadow: 0 5px 5px var(--cor-sombra);
+    box-shadow: 1px 1px 5px black;
 }
-#button li a:hover{
-    background-color: rgb(15, 28, 148);
+#home a{
+    color:white;
     text-decoration: none;
-    padding: 15px;
-    border-radius: 30px;
-    box-shadow: 0 5px 5px var(--cor-sombra);
-    font-size: 110%;
+}
+#home:hover{
+    background-color: rgb(15, 28, 148);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    font-size: 101%;
 }
 /*fim de página*/
 #end-page{
