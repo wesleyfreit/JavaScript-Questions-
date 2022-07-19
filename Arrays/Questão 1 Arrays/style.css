@@ -8,12 +8,11 @@
 body{
     background-color: rgba(0, 141, 228, 0.407);
     width:100%;
-    min-height: 160vh;
+    min-height: 100vh;
     place-items: center;
     display: grid;
 }
-.box{
-    min-width: 500px;
+div.box{
     background-color:rgb(7, 179, 167);
     border-radius: 50px;
     padding: 60px;
