@@ -5,3 +5,74 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(0, 141, 228, 0.407);
+    width:100%;
+    min-height: 160vh;
+    place-items: center;
+    display: grid;
+}
+.box{
+    min-width: 500px;
+    background-color:rgb(7, 179, 167);
+    border-radius: 50px;
+    padding: 60px;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    
+}
+label{
+    font-size: 20pt;
+    font-weight: bold;
+    color:rgb(253, 144, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    display: grid;
+}
+div.box p{
+    font-size: 15pt;
+    font-weight: bold;
+    color:rgb(255, 234, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+div.box input{
+    padding: 10px;
+    margin: 2%;
+}
+#button{
+    margin:2%;
+    font-size: 10pt;
+    padding: 10px;
+    transition: .3s;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(87, 214, 28);
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+#button:hover{
+    background-color: rgb(17, 152, 17);
+    cursor: pointer;
+}
+/*botão pag-inicial*/
+#home{
+    background-color: rgb(18, 72, 250);
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 12px;
+    border: 0;
+    transition: .3s;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px black;
+}
+#home a{
+    color:white;
+    text-decoration: none;
+}
+#home:hover{
+    background-color: rgb(15, 28, 148);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    font-size: 101%;
+}
+
+
+

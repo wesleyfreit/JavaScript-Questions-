@@ -3,7 +3,7 @@ Para essa questão, crie um ouvinte de evento no referido botão que realiza uma
 um número aleatório usando a função Math.random(). Mostre o número gerado pra o usuário em uma <div> ou <p>. */
 
 const botaoAleatorio = document.querySelector("div.box button");
-const textInserir = document.querySelector("div.box h1")
+const textInserir = document.querySelector("div.box h1");
 let inserirNumero = document.querySelector("div.box p");
 
 function gerarNumero () {
